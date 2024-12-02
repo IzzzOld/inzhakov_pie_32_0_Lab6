@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Lab6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <title>Лабораторная работа №6</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Лабораторная работа №6</h2>
+        <nav>
+            <a href="#Лаба6">ЛР6</a>
+        </nav>
+    </header>
+    <main>
+        <section class="task">
+            <h3>Задание 1 (Функция f(x, C))</h3>
+            <input type="number" id="xInput" placeholder="Введите x">
+            <input type="number" id="CInput" placeholder="Введите C">
+            <button onclick="calculateF()">Рассчитать</button>
+            <p class="result" id="resultF"></p>
+        </section>
+        <hr>
+        <section class="task">
+            <h3>Задание 2 (Работа с матрицами)</h3>
+            <input type="number" id="lineInput" placeholder="Введите количество строк">
+            <input type="number" id="columnInput" placeholder="Введите количество столбцов">
+            <button onclick="mainMatrix()">Ввести матрицу и обработать</button>
+            <pre id="matrixResult"></pre>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Инжаков Валерий. ПИЭ-32.</p>
+    </footer>
+    <script src="js/Lab6_1.js"></script>
+    <script src="js/Lab6_2.js"></script>
+</body>
+</html>
